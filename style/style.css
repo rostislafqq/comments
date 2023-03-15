@@ -1,0 +1,59 @@
+*{
+    color: white;
+    background-color: #333;
+}
+body{
+    padding: 100px
+}
+
+.error{
+    color: red;
+}
+
+.date{
+    margin-left: 40px;
+    font-size: 10px;
+}
+button{
+    background-color: rgb(81, 124, 162);
+    border: 2px solid #e3e3e3;
+    padding: 5px;
+    cursor: pointer;
+}
+li{
+    width: fit-content;
+    list-style: none;
+    padding: 15px;
+    border: 2px solid #524e4e;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+h2{
+    display: inline;
+}
+.delete{
+    width: 30px;
+    height: 30px;
+
+}
+.like{
+    width: 30px;
+    height: 30px;
+    margin-right: 40px;
+}
+
+.like:hover{
+    transition: .3s;
+    background-color: rgb(220, 141, 141);
+}
+.delete:hover{
+    transition: .3s;
+    background-color: rgb(220, 141, 141);
+}
+.liked{
+    background-color: rgb(220, 141, 141);
+}
+#comments{
+    border-top:  2px solid #524e4e;
+    padding: 0;
+}

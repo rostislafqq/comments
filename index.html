@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Comments</title>
+    <link rel="stylesheet" href="./style/style.css">
+  </head>
+  <body> 
+        <form>
+          <label for="name">Имя:</label>
+          <input type="text" id="name" name="name"><br>
+          <span id="name-error" class="error"></span><br>
+          
+          <label for="text">Текст комментария:</label>
+          <input type="text" id="text" name="text"><br>
+          <span id="text-error" class="error"></span><br>
+          
+          <label for="date">Дата:</label>
+          <input type="date" id="date" name="date" value=""><br><br>
+          
+          <button id="btn" type="button" onclick="addComment()">Добавить комментарий</button>
+        </form>
+        <br>
+        <ul id="comments">
+        </ul>
+    <script src="./scripts/today.js"></script>
+    <script src="./scripts/addComment.js"></script>
+    <script src="./scripts/validation.js"></script>
+  </body>
+</html>
